@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" >
+    <information>
+        <title>Boggle</title>
+        <vendor>mazubieta</vendor>
+        <homepage href=""/>
+        <description>Boggle</description>
+        <icon kind="splash" href="http://dl.javafx.com/1.3/splash.png"/>
+        <offline-allowed/>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.3/javafx-rt.jnlp"/>
+        <jar href="Boggle.jar" main="true" size="277541"/>
+    </resources>
+    <applet-desc name="Boggle" main-class="com.sun.javafx.runtime.adapter.Applet" progress-class="com.javafx.progressbar.ProgressManager" width="1024" height="768">
+        <param name="MainJavaFXScript" value="boggle.Main"/>
+    </applet-desc>
+    <update check="always"/>
+</jnlp>

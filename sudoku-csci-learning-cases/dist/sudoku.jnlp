@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="file:/Users/mazubieta/Dropbox/Documents/Development%20Projects/NetBeansProjects/Sudoku/dist/" href="sudoku.jnlp">
+    <information>
+        <title>sudoku</title>
+        <vendor>sunnyohno</vendor>
+        <homepage href=""/>
+        <description>sudoku</description>
+        <icon kind="splash" href="http://dl.javafx.com/1.3/splash.png"/>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.3/javafx-rt.jnlp"/>
+        <jar href="sudoku.jar" main="true" size="94943"/>
+    </resources>
+    <application-desc main-class="com.sun.javafx.runtime.main.Main" progress-class="com.javafx.progressbar.ProgressManager">
+        <argument>MainJavaFXScript=sudoku.Main</argument>
+    </application-desc>
+    <update check="always"/>
+</jnlp>
